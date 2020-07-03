@@ -9,10 +9,10 @@ public class Score {
 		// 수학점수 : 90;
 		int math = 90;
 		
-		int hap = 0;
-		hap = kor + eng + math;
-		double avg = hap/3.0;
-		System.out.println("총점 : "+hap);
+		int sum = 0;
+		sum = kor + eng + math;
+		double avg = sum/3.0;
+		System.out.println("총점 : "+sum);
 		System.out.printf("평균 : %f \n", avg);
 
 	}
